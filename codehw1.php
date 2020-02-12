@@ -16,12 +16,9 @@
             <?php
                 $changes = 159;
                 $types = [100, 25, 10, 5, 1];
-                // $dollors = floor($changes / $types[0]);
 
                 print "<h4>You are due ".$changes." cents back in change total.</h4>
                       <ul><b>You are due back</b>";
-
-                // $total = $changes % $types[0];
 
                 for ($i = 0; $i < count($types); $i++) {
                     $remains = floor($changes / $types[$i]);      
