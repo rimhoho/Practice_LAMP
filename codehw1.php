@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Code Homework 01</title>
         <style>
@@ -14,19 +14,22 @@
         <div class="hw1">
             <h1>Challenge: Correct Change</h1>
             <?php
-                $changes = 9;
+                $changes = 159;
                 $types = [100, 25, 10, 5, 1];
-                $dollors = floor($changes / $types[0]);
+                // $dollors = floor($changes / $types[0]);
 
                 print "<h4>You are due ".$changes." cents back in change total.</h4>
-                    <ul><b>You are due back</b><br>
-                    <li><b>".$dollors."</b> dollor(s)</li>";
+                      <ul><b>You are due back</b>";
 
-                $total = $changes % $types[0];
-                for ($i = 1; $i < count($types); $i++) {
-                    $remains = floor($total / $types[$i]);      
-                    $total = $total % $types[$i];
+                // $total = $changes % $types[0];
+
+                for ($i = 0; $i < count($types); $i++) {
+                    $remains = floor($changes / $types[$i]);      
+                    $changes = $changes % $types[$i];
                     switch ($i) {
+                        case 0:
+                            echo "<li><b>".$remains."</b> dollor(s)</li>";
+                            break;
                         case 1:
                             echo "<li><b>".$remains."</b> quarter(s)</li>";
                             break;
