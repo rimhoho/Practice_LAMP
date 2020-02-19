@@ -7,6 +7,9 @@
             li {list-style-type: circle;}
             .hw1 {padding: 14px 40px; width:470px; background-color: WhiteSmoke;}
             .hw2 {margin: 20px 0 0; padding: 14px 40px; width:470px; background-color: WhiteSmoke;}
+            .yellow {background-color: gold;}
+            .darkgrey {background-color: grey;}
+            .box {padding:8px 12px;}
         </style>
     </head>
     <body>
@@ -15,35 +18,32 @@
             <h1>Challenge: ISBN Validation</h1>
             <?php
                 # function
-                function loopup_till_X($index) {
-                    // $index = ($X == true ? 10 : 9);
-                    echo 'index: '.$index.'<br/>';
-                    $m = array();
+                function loopup_till_X($isbn, $index) {
+                    // $index = ($X == true ? 10 : 9);\
+                    $value = str_split($isbn);
                     $sumAll = 0;
+                    $counter = $index;
                     for ($i = 0; $i < $index; $i++) {
-                        for ($j = $index; $j = 0; $j--) {
-                            array_push($m,$isbn[$i]*$j);
-                            echo 'm: '.$m.'<br/>';
-                        }
-                        $sumAll += $m[$i];
-                        echo 'sumAll: '.$sumAll.'<br/>';
+                        $sumAll += ((int)$value[$i])*$counter;
+                        $counter--;
                     }
                     return $sumAll;
                 };
 
-                $isbn = '156881111X';
-                print "<h4>Checking isbn: ".$isbn." for validity...</h4>";
+                $isbn = '0747532699';
+                print "<h4>Checking isbn: <span class='box yellow'>".$isbn."</span> for validity...</h4>";
 
                 if (strlen($isbn) == 10) {
                     if (preg_match('/X{1}$/', $isbn)) {
-                        $sumAll = loopup_till_X(9);
+                        $sumAll = loopup_till_X($isbn, 9);
                     } else {
-                        $sumAll = loopup_till_X(10);
+                        $sumAll = loopup_till_X($isbn, 10);
                     }
+                    
                     if ($sumAll % 11 == 0) {
-                        print "<h4>This's a valid ISBN!</h4>".$sumAll.": is decide by 11 with no remainder!";
+                        print "<h4>This's a <span class='box yellow'>valid ISBN</span>.</h4><div>".$sumAll.": is decided by 11 with no remainder!</div>";
                     } else {
-                        print "<h4>This's not a valid ISBN! It should devide by 11 with no remainder.</h4>";
+                        print "<p>This's <span class='box darkgrey'> not a valid ISBN</span>.</p><div>".$sumAll.": isn't devide by 11 with no remainder.</div>";
                     }
                 } else {
                     print "<h4>This's not a valid ISBN! It should have 10 digits.</h4>";
