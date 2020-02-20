@@ -5,8 +5,8 @@
         <style>
             body {padding: 20px 40px; font: bold 12px Arial, Sans-serif;}
             li {list-style-type: circle;}
-            .hw1 {padding: 14px 40px; width:470px; background-color: WhiteSmoke;}
-            .hw2 {margin: 20px 0 0; padding: 14px 40px; width:470px; background-color: WhiteSmoke;}
+            .hw1 {padding: 14px 40px; width:680px; background-color: WhiteSmoke;}
+            .hw2 {margin: 20px 0 0; padding: 14px 40px; width:680px; background-color: WhiteSmoke;}
             h3 {margin:8px 6px;}
             .wheat {background-color: Wheat;}
             .white {background-color: white;}
