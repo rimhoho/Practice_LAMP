@@ -5,8 +5,8 @@
         <style>
             body {padding: 20px 40px; font: bold 12px Arial, Sans-serif;}
             li {list-style-type: circle;}
-            .hw1 {padding: 14px 40px; width:680px; background-color: WhiteSmoke;}
-            .hw2 {margin: 20px 0 0; padding: 14px 40px; width:680px; background-color: WhiteSmoke;}
+            .section1 {padding: 14px 40px; width:680px; background-color: WhiteSmoke;}
+            .section2 {margin: 20px 0 0; padding: 14px 40px; width:680px; background-color: WhiteSmoke;}
             h3 {margin:8px 6px;}
             .wheat {background-color: Wheat;}
             .white {background-color: white;}
@@ -18,7 +18,7 @@
     </head>
     <body>
         <p>Code Homework 02</p>
-        <div class="hw1">
+        <div class="section1">
             <h1>Challenge: ISBN Validation</h1>
             <?php
                 # function
@@ -56,7 +56,7 @@
             ?>
         </div>
 
-        <div class="hw2">
+        <div class="section2">
             <h1>Challenge: Coin Toss</h1>
             <h4 class='gainsboro'>1. Create a series of random coin tosses for 1, 3, 5, 7, and 9 flips.</h4>
             <?php
