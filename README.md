@@ -23,3 +23,11 @@ i.  The mt_rand() function returns a random value; optionally you may enter a mi
 ii.  Create a loop that will toss the coin repeatedly until you have flipped exactly two heads in a row. Stop the loop and print out to the page the number of tosses this took.
 
 ![hw2.png](hw2.png)
+
+#### Challenge 3-a: Book lists
+Put the following book data into a multi-dimensional array, then use your array to print out the books on the web page in an attractive table (e.g. you may want to color alternating rows differently, etc.)  Somewhere on your page, you should also include the total price, if the user were to purchase all the books listed, e.g. example output (style your table as you wish):
+
+#### Challenge 3-b: Coin Toss, continued
+Repeat the coin exercise from HW2, but modify your program to 1) be a function that takes one argument – the number of heads in a row you'd like to flip and then 2) modify your code to use this argument to allow a variable number of heads in a row to be chosen. E.g.  coinToss(8); will flip the coin until 8 heads in a row are obtained.  You should print out the number of heads in a row you are seeking and the total number of flips it took.
+
+![hw3.png](hw3.png)
