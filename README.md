@@ -1,5 +1,5 @@
 
-## Where Free Movice @
+## Where Free Movies @
 
 Background: While we are not allowed to go out and enjoy the most recent movies these days, It could
 be beneficial if I collect all the streaming movie data that can be watched at home. A user can briefly skim xx number of movice that xx resources are provided.
