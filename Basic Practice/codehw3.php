@@ -81,10 +81,10 @@
                                 $indicator = mt_rand(0, 1);
                                 if ($indicator == 0) {
                                     $head_count++;
-                                    echo "<img src='head.png' alt='coin-head' width='80px'>";
+                                    echo "<img src='images/head.png' alt='coin-head' width='80px'>";
                                 } else {
                                     $head_count=0;
-                                    echo "<img src='tail.png' alt='coin-tail' width='80px'>";
+                                    echo "<img src='images/tail.png' alt='coin-tail' width='80px'>";
                                 }
                                 $times++;
                                 if ($head_count == $N) {
