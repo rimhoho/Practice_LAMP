@@ -83,6 +83,7 @@
                                     $head_count++;
                                     echo "<img src='head.png' alt='coin-head' width='80px'>";
                                 } else {
+                                    $head_count=0;
                                     echo "<img src='tail.png' alt='coin-tail' width='80px'>";
                                 }
                                 $times++;
