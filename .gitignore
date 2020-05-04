@@ -3,3 +3,4 @@
 /build/*
 /composer.lock
 /*.ini
+db_connection.php
