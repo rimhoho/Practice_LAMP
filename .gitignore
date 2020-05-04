@@ -1,0 +1,5 @@
+/bin
+/docs
+/build/*
+/composer.lock
+/*.ini
