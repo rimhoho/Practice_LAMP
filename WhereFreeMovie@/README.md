@@ -27,6 +27,6 @@ He or she can make their preferences whether they want to see the movie or not. 
 ![images/Mock-up.png](images/Mock-up.png)
 
 
-#### File-list
+#### Directory / File List
 
 ![images/File-list.png](images/File-list.png)
