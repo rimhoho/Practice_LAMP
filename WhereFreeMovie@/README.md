@@ -1,7 +1,7 @@
 
-## Where Free Movies @
+## Where My Favorite Movies @
 
-![WhereFreeMovie@/whereMyFavoriteMovie@.png](WhereFreeMovie@/whereMyFavoriteMovie@.png)
+![images/whereMyFavoriteMovie@.png](images/whereMyFavoriteMovie@.png)
 
 
 #### Project Background
@@ -10,17 +10,19 @@ He or she can make their preferences whether they want to see the movie or not. 
 
 #### Resources
 
-https://www.imdb.com/
-https://rapidapi.com/rapidapi/api/movie-database-imdb-alternative
-https://rapidapi.com/apidojo/api/imdb8
-https://rapidapi.com/blog/how-to-use-imdb-api/
+- https://www.imdb.com/
+- https://rapidapi.com/rapidapi/api/movie-database-imdb-alternative
+- https://rapidapi.com/apidojo/api/imdb8
+- https://rapidapi.com/blog/how-to-use-imdb-api/
 
 
 #### Database
 
-![Database-design.png](Database-design.png)
+![images/Database-design.png](images/Database-design.png)
 
 
 #### Mock-up
 
-![Mock-up.png](Mock-up.png)
+![images/Mock-up.png](images/Mock-up.png)
+
+
