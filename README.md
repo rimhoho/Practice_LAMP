@@ -13,7 +13,7 @@ The same verse is repeated, each time with one fewer bottle. The song is complet
 i. Write a PHP program that prints the full lyrics of the song on the page. You are welcome to add additional PHP/HTML/CSS to improve the design or function of your page.  
 ii. Modify your code, such that you can print out the song for any number of starting beers, e.g. with 4 bottles of beer:
 
-![Basic\ Practice/images/hw1.png](hw1.png)
+![Basic\ Practice/images/hw1.png](BasicPractice/images/hw1.png)
 
 #### Challenge 2-a: Correct Change
 An ISBN is a ten digit code which identifies a book. The first nine digits represent the book and the last digit is used to make sure the ISBN is correct.  To verify an ISBN you do the following: 
@@ -24,7 +24,7 @@ Divide the sum by 11, if the sum leaves no remainder when divided by 11 the code
 i.  The mt_rand() function returns a random value; optionally you may enter a mix and max number to be returned. Create a PHP page that simulates a series of random coin tosses for 1, 3, 5, 7, and 9 flips. You should make your page visually interesting by using images to represent a toss of heads or tails.
 ii.  Create a loop that will toss the coin repeatedly until you have flipped exactly two heads in a row. Stop the loop and print out to the page the number of tosses this took.
 
-![Basic\ Practice/images/hw2.png](hw2.png)
+![Basic\ Practice/images/hw2.png](BasicPractice/images/hw2.png)
 
 #### Challenge 3-a: Book lists
 Put the following book data into a multi-dimensional array, then use your array to print out the books on the web page in an attractive table (e.g. you may want to color alternating rows differently, etc.)  Somewhere on your page, you should also include the total price, if the user were to purchase all the books listed, e.g. example output (style your table as you wish):
@@ -32,4 +32,4 @@ Put the following book data into a multi-dimensional array, then use your array 
 #### Challenge 3-b: Coin Toss, continued
 Repeat the coin exercise from HW2, but modify your program to 1) be a function that takes one argument – the number of heads in a row you'd like to flip and then 2) modify your code to use this argument to allow a variable number of heads in a row to be chosen. E.g.  coinToss(8); will flip the coin until 8 heads in a row are obtained.  You should print out the number of heads in a row you are seeking and the total number of flips it took.
 
-![Basic\ Practice/images/hw3.png](hw3.png)
+![Basic\ Practice/images/hw3.png](BasicPractice/images/hw3.png)
