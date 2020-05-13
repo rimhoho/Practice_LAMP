@@ -31,3 +31,13 @@
 .lighter {
   background-color: rgb(240, 239, 239); 
 };
+
+a:link {
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:visited {
+  text-decoration: none;
+  cursor: auto;
+}

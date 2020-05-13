@@ -131,7 +131,7 @@
                                     <h5 class="m-2 text-secondary">Result</h5>
                                     <div class="row pt-3 mb-2 bg-light">';
                         while ($row = $get_result->fetch_assoc()) {
-                            print '<div class="col-md-12">
+                            print '<div class="col-md-4">
                                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                                             <div class="col p-4 d-flex flex-column position-static bg-white">
                                                 <div class="d-flex justify-content-between align-items-center">
@@ -144,7 +144,7 @@
                                                 <h5 class="mb-0">'.$row["MovieTitle"].'</h5>
                                                 <small class="mb-1 text-muted">'.$row["ReleaseYear"].'</small>
                                                 <div class="d-none d-lg-block my-3">
-                                                    <img src="'.$row["PosterUrl"].'" alt="'.$row["MovieTitle"].'" class="">
+                                                    <img src="'.$row["PosterUrl"].'" alt="'.$row["MovieTitle"].'" width="100%" height="30%">
                                                 </div>';
                                                 // $MovieId = $row["MovieId"];
                                                 // echo '<p> UUUUU'.$MovieId;
@@ -225,8 +225,7 @@
                                             print '
                                             </div>
                                             <form class="form-inline mt-md-0">
-                                                <button class="btn btn-sm btn-outline-primary my-2 my-sm-0 mr-2" type="submit">+ Watchlist</button>
-                                                <small><a href="https://www.imdb.com/title/'.$row["MovieId"].'" class="text-primary" target="_blank">More Details ></a></small>
+                                                <button class="btn btn-sm btn-dark my-2 my-sm-0 mr-2" type="submit"><a href="https://www.imdb.com/title/'.$row["MovieId"].'" class="text-light" target="_blank">More Details ></a></button>
                                             </form>
                                         </div>
                                     </div>
@@ -235,8 +234,6 @@
                         print "</div>
                             </div>
                         </div>";
-                    } else {
-                        echo "<p>No results!</p>";
                     }
                 }
             } 
